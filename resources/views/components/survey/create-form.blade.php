@@ -3,12 +3,12 @@
         <div class="divide-y1">
             <x-form.control>
                 <x-input.label for="title" :value="__('Survey.Title')"/>
-                <x-input.text id="title" wire:model.lazy="state.title" class="w-full"/>
+                <x-input.text id="title" wire:model.lazy="title"/>
                 <x-input.error for="title"/>
             </x-form.control>
             <x-form.control>
                 <x-input.label for="description" :value="__('Survey.Description')"/>
-                <x-input.area id="description" wire:model.lazy="state.description" class="w-full"/>
+                <x-input.area id="description" wire:model.lazy="description"/>
                 <x-input.error for="description"/>
             </x-form.control>
         </div>

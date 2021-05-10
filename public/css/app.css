@@ -33406,6 +33406,14 @@ $input-btn-padding-y:         .375rem !default; py-1.5
 $input-btn-padding-x:         .75rem !default;  px-3
 */
 
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

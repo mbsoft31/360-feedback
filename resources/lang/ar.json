@@ -1,6 +1,51 @@
 {
 
-    "Survey.CreateNewSurvey": "إنشاء إستبيان جديد",
+    "Password": "كلمة المرور",
+
+    "Dashboard": "لوحة القيادة",
+    "Manage Account": "تسيير الحساب",
+    "Profile": "الملف الشخصي",
+    "Log Out": "تسجيل الخروج",
+
+    "Profile Information": "المعلومات الشخصية",
+    "Update your account's profile information and email address.": "قم بتعديل معلومات حسابك وبريدك الإلكتروني",
+    "Photo":  "الصورة",
+    "Select A New Photo": "قم نتحديد صورة جديدة",
+    "Remove Photo":  "حذف الصورة",
+    "Name": "الإسم",
+    "Email":  "البريد الإلكتروني",
+    "Saved.": "تم الحفظ.",
+
+    "Update Password": "تعديل كلمة السر",
+    "Ensure your account is using a long, random password to stay secure.":"تأكد من أن حسابك يملك كلمة مرور طويلة وعشوائية ليبقى في أمان.",
+    "Current Password": "كلمة المرور الحالية",
+    "New Password":"كلمة المرور الجديدة",
+    "Confirm Password": "تأكيد كلمة المرور",
+
+    "Two Factor Authentication":"التعريف الثنائي",
+    "Add additional security to your account using two factor authentication.": "قم بإضافة حماية إضافية باستعمال التعريف الثنائي",
+    "You have not enabled two factor authentication.":"أنت لم تقم بتفعيل خاصية التعريف الثنائي بعد.",
+    "When two factor authentication is enabled, you will be prompted for a secure, random token during authentication. You may retrieve this token from your phone's Google Authenticator application.": "عندما تفعل خاصية التعريف الثنائي, سوف يطلب منك توكن آمن وعشوائي خلال تسجيل الدخول . بإكانك الحصول على هذا التوكن من خلال تطبيق Google Authenticator على هاتفك.",
+    "Store these recovery codes in a secure password manager. They can be used to recover access to your account if your two factor authentication device is lost.": "قم بحفظ هذه الأكواد في مكان آمن. يمكن إستعمالها في حالة ضياع الهاتف المربوط بخاصية التعريف الثنائي.",
+    "You have enabled two factor authentication.": "لقد قمت بتفعيل خاصية التعريف الثنائي.",
+    "Two factor authentication is now enabled. Scan the following QR code using your phone\\'s authenticator application.": "خاصية التعريف الثنائي مفعلة الآن. قم بمسح هذا الكود باستعمال تطبيق ال Authenticator.",
+    "Regenerate Recovery Codes": "تجديد أكواد الإستعادة",
+    "Show Recovery Codes": "أظهر أكواد الإستعادة",
+
+    "Browser Sessions": "جلسات المتصفح",
+    "Manage and log out your active sessions on other browsers and devices.": "تسيير وتسجيل الخروج من جلسات المتصفح في مختلف الأجهزة.",
+    "If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.": "If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your password.",
+    "This device": "هذا الجهاز",
+    "Last active": "آخر تفعيل",
+    "Log Out Other Browser Sessions": "تسجيل الخروج من كل الجلسات",
+    "Please enter your password to confirm you would like to log out of your other browser sessions across all of your devices.": "من فضلك قم بإدخال كلمة مرورك لتأكيد انك تريد حذف كل الجلسات في كل الأجهزة الأخرى.",
+    "Done.": "تم.",
+    "Disable": "تعطيل",
+    "Enable":"تفعيل",
+    "Confirm":"تأكيد",
+
+
+    "Create a new survey": "إنشاء إستبيان جديد",
 
     "Cancel": "تراجع",
     "Save": "حفظ",
