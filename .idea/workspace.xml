@@ -20,33 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="437c1bed-f3ac-451b-b3ee-103a8f4752ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Survey.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_10_172138_create_surveys_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/card.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/card/body.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/card/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/card/title.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/departement/create-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/faculty/create-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/modal.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/survey/create-modal.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/View/Survey/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/View/Survey/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/survey/create-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/survey/create-form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/survey/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/survey/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/survey/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/survey/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,6 +187,16 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -225,6 +209,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.watch" />
       </list>
     </recent_temporary>
@@ -238,7 +223,7 @@
       <option name="presentableId" value="Default" />
       <updated>1620252477562</updated>
       <workItem from="1620252478803" duration="21533000" />
-      <workItem from="1620513839003" duration="16626000" />
+      <workItem from="1620513839003" duration="17290000" />
     </task>
     <servers />
   </component>
@@ -270,25 +255,25 @@
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620667077798" />
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1620337832322" />
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1620667269629">
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom" timestamp="1620670973797">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620667269629" />
+    <state width="1493" height="267" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620670973797" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1620346697946" />
-    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1620667269629">
+    <state width="1493" height="267" key="GridCell.Tab.0.center" timestamp="1620670973797">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620667269629" />
+    <state width="1493" height="267" key="GridCell.Tab.0.center/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620670973797" />
     <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1620346697946" />
-    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1620667269629">
+    <state width="1493" height="267" key="GridCell.Tab.0.left" timestamp="1620670973797">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620667269629" />
+    <state width="1493" height="267" key="GridCell.Tab.0.left/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620670973797" />
     <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1620346697946" />
-    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1620667269629">
+    <state width="1493" height="267" key="GridCell.Tab.0.right" timestamp="1620670973797">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620667269629" />
+    <state width="1493" height="267" key="GridCell.Tab.0.right/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620670973797" />
     <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1620346697946" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1620514960885">
       <screen x="0" y="0" width="1536" height="834" />
