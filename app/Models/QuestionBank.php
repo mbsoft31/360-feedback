@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+/**
+ * @method static where(string $key, mixed $value)
+ * @method static find(int $id)
+ * @method static create(array $array)
+ */
+class QuestionBank extends Model
+{
+
+    protected $table = "question_bank";
+    protected $guarded = [];
+
+    public function competency()
+    {
+        return $this->belongsTo(Competency::class);
+    }
+
+}

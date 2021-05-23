@@ -2428,6 +2428,18 @@ select {
   margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-104 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(28rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(28rem * var(--tw-space-y-reverse));
+}
+
+.space-x-104 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(28rem * var(--tw-space-x-reverse));
+  margin-left: calc(28rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-y-px > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1px * calc(1 - var(--tw-space-y-reverse)));
@@ -2846,6 +2858,18 @@ select {
   --tw-space-x-reverse: 0;
   margin-right: calc(-24rem * var(--tw-space-x-reverse));
   margin-left: calc(-24rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.-space-y-104 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(-28rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(-28rem * var(--tw-space-y-reverse));
+}
+
+.-space-x-104 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(-28rem * var(--tw-space-x-reverse));
+  margin-left: calc(-28rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .-space-y-px > :not([hidden]) ~ :not([hidden]) {
@@ -12876,6 +12900,10 @@ select {
   height: 24rem;
 }
 
+.h-104 {
+  height: 28rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -13229,6 +13257,10 @@ select {
   margin: 24rem;
 }
 
+.m-104 {
+  margin: 28rem;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -13371,6 +13403,10 @@ select {
 
 .-m-96 {
   margin: -24rem;
+}
+
+.-m-104 {
+  margin: -28rem;
 }
 
 .-m-px {
@@ -13691,6 +13727,16 @@ select {
 .mx-96 {
   margin-left: 24rem;
   margin-right: 24rem;
+}
+
+.my-104 {
+  margin-top: 28rem;
+  margin-bottom: 28rem;
+}
+
+.mx-104 {
+  margin-left: 28rem;
+  margin-right: 28rem;
 }
 
 .my-auto {
@@ -14051,6 +14097,16 @@ select {
 .-mx-96 {
   margin-left: -24rem;
   margin-right: -24rem;
+}
+
+.-my-104 {
+  margin-top: -28rem;
+  margin-bottom: -28rem;
+}
+
+.-mx-104 {
+  margin-left: -28rem;
+  margin-right: -28rem;
 }
 
 .-my-px {
@@ -14581,6 +14637,22 @@ select {
 
 .ml-96 {
   margin-left: 24rem;
+}
+
+.mt-104 {
+  margin-top: 28rem;
+}
+
+.mr-104 {
+  margin-right: 28rem;
+}
+
+.mb-104 {
+  margin-bottom: 28rem;
+}
+
+.ml-104 {
+  margin-left: 28rem;
 }
 
 .mt-auto {
@@ -15159,6 +15231,22 @@ select {
   margin-left: -24rem;
 }
 
+.-mt-104 {
+  margin-top: -28rem;
+}
+
+.-mr-104 {
+  margin-right: -28rem;
+}
+
+.-mb-104 {
+  margin-bottom: -28rem;
+}
+
+.-ml-104 {
+  margin-left: -28rem;
+}
+
 .-mt-px {
   margin-top: -1px;
 }
@@ -15357,6 +15445,10 @@ select {
 
 .max-h-96 {
   max-height: 24rem;
+}
+
+.max-h-104 {
+  max-height: 28rem;
 }
 
 .max-h-px {
@@ -16193,6 +16285,10 @@ select {
   padding: 24rem;
 }
 
+.p-104 {
+  padding: 28rem;
+}
+
 .p-px {
   padding: 1px;
 }
@@ -16511,6 +16607,16 @@ select {
 .px-96 {
   padding-left: 24rem;
   padding-right: 24rem;
+}
+
+.py-104 {
+  padding-top: 28rem;
+  padding-bottom: 28rem;
+}
+
+.px-104 {
+  padding-left: 28rem;
+  padding-right: 28rem;
 }
 
 .py-px {
@@ -17041,6 +17147,22 @@ select {
 
 .pl-96 {
   padding-left: 24rem;
+}
+
+.pt-104 {
+  padding-top: 28rem;
+}
+
+.pr-104 {
+  padding-right: 28rem;
+}
+
+.pb-104 {
+  padding-bottom: 28rem;
+}
+
+.pl-104 {
+  padding-left: 28rem;
 }
 
 .pt-px {
@@ -20229,6 +20351,13 @@ select {
   left: 24rem;
 }
 
+.inset-104 {
+  top: 28rem;
+  right: 28rem;
+  bottom: 28rem;
+  left: 28rem;
+}
+
 .inset-auto {
   top: auto;
   right: auto;
@@ -20479,6 +20608,13 @@ select {
   right: -24rem;
   bottom: -24rem;
   left: -24rem;
+}
+
+.-inset-104 {
+  top: -28rem;
+  right: -28rem;
+  bottom: -28rem;
+  left: -28rem;
 }
 
 .-inset-px {
@@ -20914,6 +21050,16 @@ select {
   left: 24rem;
 }
 
+.inset-y-104 {
+  top: 28rem;
+  bottom: 28rem;
+}
+
+.inset-x-104 {
+  right: 28rem;
+  left: 28rem;
+}
+
 .inset-y-auto {
   top: auto;
   bottom: auto;
@@ -21272,6 +21418,16 @@ select {
 .-inset-x-96 {
   right: -24rem;
   left: -24rem;
+}
+
+.-inset-y-104 {
+  top: -28rem;
+  bottom: -28rem;
+}
+
+.-inset-x-104 {
+  right: -28rem;
+  left: -28rem;
 }
 
 .-inset-y-px {
@@ -21944,6 +22100,22 @@ select {
   left: 24rem;
 }
 
+.top-104 {
+  top: 28rem;
+}
+
+.right-104 {
+  right: 28rem;
+}
+
+.bottom-104 {
+  bottom: 28rem;
+}
+
+.left-104 {
+  left: 28rem;
+}
+
 .top-auto {
   top: auto;
 }
@@ -22518,6 +22690,22 @@ select {
 
 .-left-96 {
   left: -24rem;
+}
+
+.-top-104 {
+  top: -28rem;
+}
+
+.-right-104 {
+  right: -28rem;
+}
+
+.-bottom-104 {
+  bottom: -28rem;
+}
+
+.-left-104 {
+  left: -28rem;
 }
 
 .-top-px {
@@ -28498,6 +28686,10 @@ select {
   width: 24rem;
 }
 
+.w-104 {
+  width: 28rem;
+}
+
 .w-auto {
   width: auto;
 }
@@ -28858,6 +29050,10 @@ select {
   gap: 24rem;
 }
 
+.gap-104 {
+  gap: 28rem;
+}
+
 .gap-px {
   gap: 1px;
 }
@@ -29028,6 +29224,11 @@ select {
        column-gap: 24rem;
 }
 
+.gap-x-104 {
+  -moz-column-gap: 28rem;
+       column-gap: 28rem;
+}
+
 .gap-x-px {
   -moz-column-gap: 1px;
        column-gap: 1px;
@@ -29171,6 +29372,10 @@ select {
 
 .gap-y-96 {
   row-gap: 24rem;
+}
+
+.gap-y-104 {
+  row-gap: 28rem;
 }
 
 .gap-y-px {
@@ -30365,6 +30570,10 @@ select {
   --tw-translate-x: 24rem;
 }
 
+.translate-x-104 {
+  --tw-translate-x: 28rem;
+}
+
 .translate-x-px {
   --tw-translate-x: 1px;
 }
@@ -30503,6 +30712,10 @@ select {
 
 .-translate-x-96 {
   --tw-translate-x: -24rem;
+}
+
+.-translate-x-104 {
+  --tw-translate-x: -28rem;
 }
 
 .-translate-x-px {
@@ -30701,6 +30914,10 @@ select {
   --tw-translate-y: 24rem;
 }
 
+.translate-y-104 {
+  --tw-translate-y: 28rem;
+}
+
 .translate-y-px {
   --tw-translate-y: 1px;
 }
@@ -30839,6 +31056,10 @@ select {
 
 .-translate-y-96 {
   --tw-translate-y: -24rem;
+}
+
+.-translate-y-104 {
+  --tw-translate-y: -28rem;
 }
 
 .-translate-y-px {
@@ -31037,6 +31258,10 @@ select {
   --tw-translate-x: 24rem;
 }
 
+.hover\:translate-x-104:hover {
+  --tw-translate-x: 28rem;
+}
+
 .hover\:translate-x-px:hover {
   --tw-translate-x: 1px;
 }
@@ -31175,6 +31400,10 @@ select {
 
 .hover\:-translate-x-96:hover {
   --tw-translate-x: -24rem;
+}
+
+.hover\:-translate-x-104:hover {
+  --tw-translate-x: -28rem;
 }
 
 .hover\:-translate-x-px:hover {
@@ -31373,6 +31602,10 @@ select {
   --tw-translate-y: 24rem;
 }
 
+.hover\:translate-y-104:hover {
+  --tw-translate-y: 28rem;
+}
+
 .hover\:translate-y-px:hover {
   --tw-translate-y: 1px;
 }
@@ -31511,6 +31744,10 @@ select {
 
 .hover\:-translate-y-96:hover {
   --tw-translate-y: -24rem;
+}
+
+.hover\:-translate-y-104:hover {
+  --tw-translate-y: -28rem;
 }
 
 .hover\:-translate-y-px:hover {
@@ -31709,6 +31946,10 @@ select {
   --tw-translate-x: 24rem;
 }
 
+.focus\:translate-x-104:focus {
+  --tw-translate-x: 28rem;
+}
+
 .focus\:translate-x-px:focus {
   --tw-translate-x: 1px;
 }
@@ -31847,6 +32088,10 @@ select {
 
 .focus\:-translate-x-96:focus {
   --tw-translate-x: -24rem;
+}
+
+.focus\:-translate-x-104:focus {
+  --tw-translate-x: -28rem;
 }
 
 .focus\:-translate-x-px:focus {
@@ -32045,6 +32290,10 @@ select {
   --tw-translate-y: 24rem;
 }
 
+.focus\:translate-y-104:focus {
+  --tw-translate-y: 28rem;
+}
+
 .focus\:translate-y-px:focus {
   --tw-translate-y: 1px;
 }
@@ -32183,6 +32432,10 @@ select {
 
 .focus\:-translate-y-96:focus {
   --tw-translate-y: -24rem;
+}
+
+.focus\:-translate-y-104:focus {
+  --tw-translate-y: -28rem;
 }
 
 .focus\:-translate-y-px:focus {
@@ -35128,6 +35381,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .sm\:space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(28rem * var(--tw-space-y-reverse));
+  }
+
+  .sm\:space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(28rem * var(--tw-space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .sm\:space-y-px > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--tw-space-y-reverse)));
@@ -35546,6 +35811,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-space-x-reverse: 0;
     margin-right: calc(-24rem * var(--tw-space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .sm\:-space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--tw-space-y-reverse));
+  }
+
+  .sm\:-space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--tw-space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .sm\:-space-y-px > :not([hidden]) ~ :not([hidden]) {
@@ -45576,6 +45853,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     height: 24rem;
   }
 
+  .sm\:h-104 {
+    height: 28rem;
+  }
+
   .sm\:h-auto {
     height: auto;
   }
@@ -45929,6 +46210,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin: 24rem;
   }
 
+  .sm\:m-104 {
+    margin: 28rem;
+  }
+
   .sm\:m-auto {
     margin: auto;
   }
@@ -46071,6 +46356,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:-m-96 {
     margin: -24rem;
+  }
+
+  .sm\:-m-104 {
+    margin: -28rem;
   }
 
   .sm\:-m-px {
@@ -46391,6 +46680,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .sm\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .sm\:my-104 {
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .sm\:mx-104 {
+    margin-left: 28rem;
+    margin-right: 28rem;
   }
 
   .sm\:my-auto {
@@ -46751,6 +47050,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .sm\:-mx-96 {
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .sm\:-my-104 {
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .sm\:-mx-104 {
+    margin-left: -28rem;
+    margin-right: -28rem;
   }
 
   .sm\:-my-px {
@@ -47281,6 +47590,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:ml-96 {
     margin-left: 24rem;
+  }
+
+  .sm\:mt-104 {
+    margin-top: 28rem;
+  }
+
+  .sm\:mr-104 {
+    margin-right: 28rem;
+  }
+
+  .sm\:mb-104 {
+    margin-bottom: 28rem;
+  }
+
+  .sm\:ml-104 {
+    margin-left: 28rem;
   }
 
   .sm\:mt-auto {
@@ -47859,6 +48184,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: -24rem;
   }
 
+  .sm\:-mt-104 {
+    margin-top: -28rem;
+  }
+
+  .sm\:-mr-104 {
+    margin-right: -28rem;
+  }
+
+  .sm\:-mb-104 {
+    margin-bottom: -28rem;
+  }
+
+  .sm\:-ml-104 {
+    margin-left: -28rem;
+  }
+
   .sm\:-mt-px {
     margin-top: -1px;
   }
@@ -48057,6 +48398,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:max-h-96 {
     max-height: 24rem;
+  }
+
+  .sm\:max-h-104 {
+    max-height: 28rem;
   }
 
   .sm\:max-h-px {
@@ -48893,6 +49238,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     padding: 24rem;
   }
 
+  .sm\:p-104 {
+    padding: 28rem;
+  }
+
   .sm\:p-px {
     padding: 1px;
   }
@@ -49211,6 +49560,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .sm\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .sm\:py-104 {
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .sm\:px-104 {
+    padding-left: 28rem;
+    padding-right: 28rem;
   }
 
   .sm\:py-px {
@@ -49741,6 +50100,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:pl-96 {
     padding-left: 24rem;
+  }
+
+  .sm\:pt-104 {
+    padding-top: 28rem;
+  }
+
+  .sm\:pr-104 {
+    padding-right: 28rem;
+  }
+
+  .sm\:pb-104 {
+    padding-bottom: 28rem;
+  }
+
+  .sm\:pl-104 {
+    padding-left: 28rem;
   }
 
   .sm\:pt-px {
@@ -52929,6 +53304,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .sm\:inset-104 {
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
   .sm\:inset-auto {
     top: auto;
     right: auto;
@@ -53179,6 +53561,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     right: -24rem;
     bottom: -24rem;
     left: -24rem;
+  }
+
+  .sm\:-inset-104 {
+    top: -28rem;
+    right: -28rem;
+    bottom: -28rem;
+    left: -28rem;
   }
 
   .sm\:-inset-px {
@@ -53614,6 +54003,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .sm\:inset-y-104 {
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .sm\:inset-x-104 {
+    right: 28rem;
+    left: 28rem;
+  }
+
   .sm\:inset-y-auto {
     top: auto;
     bottom: auto;
@@ -53972,6 +54371,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .sm\:-inset-x-96 {
     right: -24rem;
     left: -24rem;
+  }
+
+  .sm\:-inset-y-104 {
+    top: -28rem;
+    bottom: -28rem;
+  }
+
+  .sm\:-inset-x-104 {
+    right: -28rem;
+    left: -28rem;
   }
 
   .sm\:-inset-y-px {
@@ -54644,6 +55053,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .sm\:top-104 {
+    top: 28rem;
+  }
+
+  .sm\:right-104 {
+    right: 28rem;
+  }
+
+  .sm\:bottom-104 {
+    bottom: 28rem;
+  }
+
+  .sm\:left-104 {
+    left: 28rem;
+  }
+
   .sm\:top-auto {
     top: auto;
   }
@@ -55218,6 +55643,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:-left-96 {
     left: -24rem;
+  }
+
+  .sm\:-top-104 {
+    top: -28rem;
+  }
+
+  .sm\:-right-104 {
+    right: -28rem;
+  }
+
+  .sm\:-bottom-104 {
+    bottom: -28rem;
+  }
+
+  .sm\:-left-104 {
+    left: -28rem;
   }
 
   .sm\:-top-px {
@@ -61185,6 +61626,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     width: 24rem;
   }
 
+  .sm\:w-104 {
+    width: 28rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -61545,6 +61990,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     gap: 24rem;
   }
 
+  .sm\:gap-104 {
+    gap: 28rem;
+  }
+
   .sm\:gap-px {
     gap: 1px;
   }
@@ -61715,6 +62164,11 @@ $input-btn-padding-x:         .75rem !default;  px-3
          column-gap: 24rem;
   }
 
+  .sm\:gap-x-104 {
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
   .sm\:gap-x-px {
     -moz-column-gap: 1px;
          column-gap: 1px;
@@ -61858,6 +62312,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:gap-y-96 {
     row-gap: 24rem;
+  }
+
+  .sm\:gap-y-104 {
+    row-gap: 28rem;
   }
 
   .sm\:gap-y-px {
@@ -63052,6 +63510,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .sm\:translate-x-104 {
+    --tw-translate-x: 28rem;
+  }
+
   .sm\:translate-x-px {
     --tw-translate-x: 1px;
   }
@@ -63190,6 +63652,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:-translate-x-96 {
     --tw-translate-x: -24rem;
+  }
+
+  .sm\:-translate-x-104 {
+    --tw-translate-x: -28rem;
   }
 
   .sm\:-translate-x-px {
@@ -63388,6 +63854,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .sm\:translate-y-104 {
+    --tw-translate-y: 28rem;
+  }
+
   .sm\:translate-y-px {
     --tw-translate-y: 1px;
   }
@@ -63526,6 +63996,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:-translate-y-96 {
     --tw-translate-y: -24rem;
+  }
+
+  .sm\:-translate-y-104 {
+    --tw-translate-y: -28rem;
   }
 
   .sm\:-translate-y-px {
@@ -63724,6 +64198,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .sm\:hover\:translate-x-104:hover {
+    --tw-translate-x: 28rem;
+  }
+
   .sm\:hover\:translate-x-px:hover {
     --tw-translate-x: 1px;
   }
@@ -63862,6 +64340,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:hover\:-translate-x-96:hover {
     --tw-translate-x: -24rem;
+  }
+
+  .sm\:hover\:-translate-x-104:hover {
+    --tw-translate-x: -28rem;
   }
 
   .sm\:hover\:-translate-x-px:hover {
@@ -64060,6 +64542,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .sm\:hover\:translate-y-104:hover {
+    --tw-translate-y: 28rem;
+  }
+
   .sm\:hover\:translate-y-px:hover {
     --tw-translate-y: 1px;
   }
@@ -64198,6 +64684,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:hover\:-translate-y-96:hover {
     --tw-translate-y: -24rem;
+  }
+
+  .sm\:hover\:-translate-y-104:hover {
+    --tw-translate-y: -28rem;
   }
 
   .sm\:hover\:-translate-y-px:hover {
@@ -64396,6 +64886,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .sm\:focus\:translate-x-104:focus {
+    --tw-translate-x: 28rem;
+  }
+
   .sm\:focus\:translate-x-px:focus {
     --tw-translate-x: 1px;
   }
@@ -64534,6 +65028,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:focus\:-translate-x-96:focus {
     --tw-translate-x: -24rem;
+  }
+
+  .sm\:focus\:-translate-x-104:focus {
+    --tw-translate-x: -28rem;
   }
 
   .sm\:focus\:-translate-x-px:focus {
@@ -64732,6 +65230,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .sm\:focus\:translate-y-104:focus {
+    --tw-translate-y: 28rem;
+  }
+
   .sm\:focus\:translate-y-px:focus {
     --tw-translate-y: 1px;
   }
@@ -64870,6 +65372,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .sm\:focus\:-translate-y-96:focus {
     --tw-translate-y: -24rem;
+  }
+
+  .sm\:focus\:-translate-y-104:focus {
+    --tw-translate-y: -28rem;
   }
 
   .sm\:focus\:-translate-y-px:focus {
@@ -67618,6 +68124,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .md\:space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(28rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(28rem * var(--tw-space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:space-y-px > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--tw-space-y-reverse)));
@@ -68036,6 +68554,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-space-x-reverse: 0;
     margin-right: calc(-24rem * var(--tw-space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:-space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:-space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--tw-space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:-space-y-px > :not([hidden]) ~ :not([hidden]) {
@@ -78066,6 +78596,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     height: 24rem;
   }
 
+  .md\:h-104 {
+    height: 28rem;
+  }
+
   .md\:h-auto {
     height: auto;
   }
@@ -78419,6 +78953,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin: 24rem;
   }
 
+  .md\:m-104 {
+    margin: 28rem;
+  }
+
   .md\:m-auto {
     margin: auto;
   }
@@ -78561,6 +79099,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:-m-96 {
     margin: -24rem;
+  }
+
+  .md\:-m-104 {
+    margin: -28rem;
   }
 
   .md\:-m-px {
@@ -78881,6 +79423,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .md\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .md\:my-104 {
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .md\:mx-104 {
+    margin-left: 28rem;
+    margin-right: 28rem;
   }
 
   .md\:my-auto {
@@ -79241,6 +79793,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .md\:-mx-96 {
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .md\:-my-104 {
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .md\:-mx-104 {
+    margin-left: -28rem;
+    margin-right: -28rem;
   }
 
   .md\:-my-px {
@@ -79771,6 +80333,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:ml-96 {
     margin-left: 24rem;
+  }
+
+  .md\:mt-104 {
+    margin-top: 28rem;
+  }
+
+  .md\:mr-104 {
+    margin-right: 28rem;
+  }
+
+  .md\:mb-104 {
+    margin-bottom: 28rem;
+  }
+
+  .md\:ml-104 {
+    margin-left: 28rem;
   }
 
   .md\:mt-auto {
@@ -80349,6 +80927,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: -24rem;
   }
 
+  .md\:-mt-104 {
+    margin-top: -28rem;
+  }
+
+  .md\:-mr-104 {
+    margin-right: -28rem;
+  }
+
+  .md\:-mb-104 {
+    margin-bottom: -28rem;
+  }
+
+  .md\:-ml-104 {
+    margin-left: -28rem;
+  }
+
   .md\:-mt-px {
     margin-top: -1px;
   }
@@ -80547,6 +81141,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:max-h-96 {
     max-height: 24rem;
+  }
+
+  .md\:max-h-104 {
+    max-height: 28rem;
   }
 
   .md\:max-h-px {
@@ -81383,6 +81981,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     padding: 24rem;
   }
 
+  .md\:p-104 {
+    padding: 28rem;
+  }
+
   .md\:p-px {
     padding: 1px;
   }
@@ -81701,6 +82303,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .md\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .md\:py-104 {
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .md\:px-104 {
+    padding-left: 28rem;
+    padding-right: 28rem;
   }
 
   .md\:py-px {
@@ -82231,6 +82843,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:pl-96 {
     padding-left: 24rem;
+  }
+
+  .md\:pt-104 {
+    padding-top: 28rem;
+  }
+
+  .md\:pr-104 {
+    padding-right: 28rem;
+  }
+
+  .md\:pb-104 {
+    padding-bottom: 28rem;
+  }
+
+  .md\:pl-104 {
+    padding-left: 28rem;
   }
 
   .md\:pt-px {
@@ -85419,6 +86047,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .md\:inset-104 {
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
   .md\:inset-auto {
     top: auto;
     right: auto;
@@ -85669,6 +86304,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     right: -24rem;
     bottom: -24rem;
     left: -24rem;
+  }
+
+  .md\:-inset-104 {
+    top: -28rem;
+    right: -28rem;
+    bottom: -28rem;
+    left: -28rem;
   }
 
   .md\:-inset-px {
@@ -86104,6 +86746,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .md\:inset-y-104 {
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .md\:inset-x-104 {
+    right: 28rem;
+    left: 28rem;
+  }
+
   .md\:inset-y-auto {
     top: auto;
     bottom: auto;
@@ -86462,6 +87114,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .md\:-inset-x-96 {
     right: -24rem;
     left: -24rem;
+  }
+
+  .md\:-inset-y-104 {
+    top: -28rem;
+    bottom: -28rem;
+  }
+
+  .md\:-inset-x-104 {
+    right: -28rem;
+    left: -28rem;
   }
 
   .md\:-inset-y-px {
@@ -87134,6 +87796,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .md\:top-104 {
+    top: 28rem;
+  }
+
+  .md\:right-104 {
+    right: 28rem;
+  }
+
+  .md\:bottom-104 {
+    bottom: 28rem;
+  }
+
+  .md\:left-104 {
+    left: 28rem;
+  }
+
   .md\:top-auto {
     top: auto;
   }
@@ -87708,6 +88386,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:-left-96 {
     left: -24rem;
+  }
+
+  .md\:-top-104 {
+    top: -28rem;
+  }
+
+  .md\:-right-104 {
+    right: -28rem;
+  }
+
+  .md\:-bottom-104 {
+    bottom: -28rem;
+  }
+
+  .md\:-left-104 {
+    left: -28rem;
   }
 
   .md\:-top-px {
@@ -93675,6 +94369,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     width: 24rem;
   }
 
+  .md\:w-104 {
+    width: 28rem;
+  }
+
   .md\:w-auto {
     width: auto;
   }
@@ -94035,6 +94733,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     gap: 24rem;
   }
 
+  .md\:gap-104 {
+    gap: 28rem;
+  }
+
   .md\:gap-px {
     gap: 1px;
   }
@@ -94205,6 +94907,11 @@ $input-btn-padding-x:         .75rem !default;  px-3
          column-gap: 24rem;
   }
 
+  .md\:gap-x-104 {
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
   .md\:gap-x-px {
     -moz-column-gap: 1px;
          column-gap: 1px;
@@ -94348,6 +95055,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:gap-y-96 {
     row-gap: 24rem;
+  }
+
+  .md\:gap-y-104 {
+    row-gap: 28rem;
   }
 
   .md\:gap-y-px {
@@ -95542,6 +96253,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .md\:translate-x-104 {
+    --tw-translate-x: 28rem;
+  }
+
   .md\:translate-x-px {
     --tw-translate-x: 1px;
   }
@@ -95680,6 +96395,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:-translate-x-96 {
     --tw-translate-x: -24rem;
+  }
+
+  .md\:-translate-x-104 {
+    --tw-translate-x: -28rem;
   }
 
   .md\:-translate-x-px {
@@ -95878,6 +96597,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .md\:translate-y-104 {
+    --tw-translate-y: 28rem;
+  }
+
   .md\:translate-y-px {
     --tw-translate-y: 1px;
   }
@@ -96016,6 +96739,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:-translate-y-96 {
     --tw-translate-y: -24rem;
+  }
+
+  .md\:-translate-y-104 {
+    --tw-translate-y: -28rem;
   }
 
   .md\:-translate-y-px {
@@ -96214,6 +96941,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .md\:hover\:translate-x-104:hover {
+    --tw-translate-x: 28rem;
+  }
+
   .md\:hover\:translate-x-px:hover {
     --tw-translate-x: 1px;
   }
@@ -96352,6 +97083,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:hover\:-translate-x-96:hover {
     --tw-translate-x: -24rem;
+  }
+
+  .md\:hover\:-translate-x-104:hover {
+    --tw-translate-x: -28rem;
   }
 
   .md\:hover\:-translate-x-px:hover {
@@ -96550,6 +97285,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .md\:hover\:translate-y-104:hover {
+    --tw-translate-y: 28rem;
+  }
+
   .md\:hover\:translate-y-px:hover {
     --tw-translate-y: 1px;
   }
@@ -96688,6 +97427,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:hover\:-translate-y-96:hover {
     --tw-translate-y: -24rem;
+  }
+
+  .md\:hover\:-translate-y-104:hover {
+    --tw-translate-y: -28rem;
   }
 
   .md\:hover\:-translate-y-px:hover {
@@ -96886,6 +97629,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .md\:focus\:translate-x-104:focus {
+    --tw-translate-x: 28rem;
+  }
+
   .md\:focus\:translate-x-px:focus {
     --tw-translate-x: 1px;
   }
@@ -97024,6 +97771,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:focus\:-translate-x-96:focus {
     --tw-translate-x: -24rem;
+  }
+
+  .md\:focus\:-translate-x-104:focus {
+    --tw-translate-x: -28rem;
   }
 
   .md\:focus\:-translate-x-px:focus {
@@ -97222,6 +97973,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .md\:focus\:translate-y-104:focus {
+    --tw-translate-y: 28rem;
+  }
+
   .md\:focus\:translate-y-px:focus {
     --tw-translate-y: 1px;
   }
@@ -97360,6 +98115,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .md\:focus\:-translate-y-96:focus {
     --tw-translate-y: -24rem;
+  }
+
+  .md\:focus\:-translate-y-104:focus {
+    --tw-translate-y: -28rem;
   }
 
   .md\:focus\:-translate-y-px:focus {
@@ -100108,6 +100867,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .lg\:space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(28rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(28rem * var(--tw-space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .lg\:space-y-px > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--tw-space-y-reverse)));
@@ -100526,6 +101297,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-space-x-reverse: 0;
     margin-right: calc(-24rem * var(--tw-space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:-space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:-space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--tw-space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .lg\:-space-y-px > :not([hidden]) ~ :not([hidden]) {
@@ -110556,6 +111339,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     height: 24rem;
   }
 
+  .lg\:h-104 {
+    height: 28rem;
+  }
+
   .lg\:h-auto {
     height: auto;
   }
@@ -110909,6 +111696,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin: 24rem;
   }
 
+  .lg\:m-104 {
+    margin: 28rem;
+  }
+
   .lg\:m-auto {
     margin: auto;
   }
@@ -111051,6 +111842,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:-m-96 {
     margin: -24rem;
+  }
+
+  .lg\:-m-104 {
+    margin: -28rem;
   }
 
   .lg\:-m-px {
@@ -111371,6 +112166,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .lg\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .lg\:my-104 {
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .lg\:mx-104 {
+    margin-left: 28rem;
+    margin-right: 28rem;
   }
 
   .lg\:my-auto {
@@ -111731,6 +112536,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .lg\:-mx-96 {
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .lg\:-my-104 {
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .lg\:-mx-104 {
+    margin-left: -28rem;
+    margin-right: -28rem;
   }
 
   .lg\:-my-px {
@@ -112261,6 +113076,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:ml-96 {
     margin-left: 24rem;
+  }
+
+  .lg\:mt-104 {
+    margin-top: 28rem;
+  }
+
+  .lg\:mr-104 {
+    margin-right: 28rem;
+  }
+
+  .lg\:mb-104 {
+    margin-bottom: 28rem;
+  }
+
+  .lg\:ml-104 {
+    margin-left: 28rem;
   }
 
   .lg\:mt-auto {
@@ -112839,6 +113670,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: -24rem;
   }
 
+  .lg\:-mt-104 {
+    margin-top: -28rem;
+  }
+
+  .lg\:-mr-104 {
+    margin-right: -28rem;
+  }
+
+  .lg\:-mb-104 {
+    margin-bottom: -28rem;
+  }
+
+  .lg\:-ml-104 {
+    margin-left: -28rem;
+  }
+
   .lg\:-mt-px {
     margin-top: -1px;
   }
@@ -113037,6 +113884,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:max-h-96 {
     max-height: 24rem;
+  }
+
+  .lg\:max-h-104 {
+    max-height: 28rem;
   }
 
   .lg\:max-h-px {
@@ -113873,6 +114724,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     padding: 24rem;
   }
 
+  .lg\:p-104 {
+    padding: 28rem;
+  }
+
   .lg\:p-px {
     padding: 1px;
   }
@@ -114191,6 +115046,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .lg\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .lg\:py-104 {
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .lg\:px-104 {
+    padding-left: 28rem;
+    padding-right: 28rem;
   }
 
   .lg\:py-px {
@@ -114721,6 +115586,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:pl-96 {
     padding-left: 24rem;
+  }
+
+  .lg\:pt-104 {
+    padding-top: 28rem;
+  }
+
+  .lg\:pr-104 {
+    padding-right: 28rem;
+  }
+
+  .lg\:pb-104 {
+    padding-bottom: 28rem;
+  }
+
+  .lg\:pl-104 {
+    padding-left: 28rem;
   }
 
   .lg\:pt-px {
@@ -117909,6 +118790,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .lg\:inset-104 {
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
   .lg\:inset-auto {
     top: auto;
     right: auto;
@@ -118159,6 +119047,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     right: -24rem;
     bottom: -24rem;
     left: -24rem;
+  }
+
+  .lg\:-inset-104 {
+    top: -28rem;
+    right: -28rem;
+    bottom: -28rem;
+    left: -28rem;
   }
 
   .lg\:-inset-px {
@@ -118594,6 +119489,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .lg\:inset-y-104 {
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .lg\:inset-x-104 {
+    right: 28rem;
+    left: 28rem;
+  }
+
   .lg\:inset-y-auto {
     top: auto;
     bottom: auto;
@@ -118952,6 +119857,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .lg\:-inset-x-96 {
     right: -24rem;
     left: -24rem;
+  }
+
+  .lg\:-inset-y-104 {
+    top: -28rem;
+    bottom: -28rem;
+  }
+
+  .lg\:-inset-x-104 {
+    right: -28rem;
+    left: -28rem;
   }
 
   .lg\:-inset-y-px {
@@ -119624,6 +120539,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .lg\:top-104 {
+    top: 28rem;
+  }
+
+  .lg\:right-104 {
+    right: 28rem;
+  }
+
+  .lg\:bottom-104 {
+    bottom: 28rem;
+  }
+
+  .lg\:left-104 {
+    left: 28rem;
+  }
+
   .lg\:top-auto {
     top: auto;
   }
@@ -120198,6 +121129,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:-left-96 {
     left: -24rem;
+  }
+
+  .lg\:-top-104 {
+    top: -28rem;
+  }
+
+  .lg\:-right-104 {
+    right: -28rem;
+  }
+
+  .lg\:-bottom-104 {
+    bottom: -28rem;
+  }
+
+  .lg\:-left-104 {
+    left: -28rem;
   }
 
   .lg\:-top-px {
@@ -126165,6 +127112,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     width: 24rem;
   }
 
+  .lg\:w-104 {
+    width: 28rem;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -126525,6 +127476,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     gap: 24rem;
   }
 
+  .lg\:gap-104 {
+    gap: 28rem;
+  }
+
   .lg\:gap-px {
     gap: 1px;
   }
@@ -126695,6 +127650,11 @@ $input-btn-padding-x:         .75rem !default;  px-3
          column-gap: 24rem;
   }
 
+  .lg\:gap-x-104 {
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
   .lg\:gap-x-px {
     -moz-column-gap: 1px;
          column-gap: 1px;
@@ -126838,6 +127798,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:gap-y-96 {
     row-gap: 24rem;
+  }
+
+  .lg\:gap-y-104 {
+    row-gap: 28rem;
   }
 
   .lg\:gap-y-px {
@@ -128032,6 +128996,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .lg\:translate-x-104 {
+    --tw-translate-x: 28rem;
+  }
+
   .lg\:translate-x-px {
     --tw-translate-x: 1px;
   }
@@ -128170,6 +129138,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:-translate-x-96 {
     --tw-translate-x: -24rem;
+  }
+
+  .lg\:-translate-x-104 {
+    --tw-translate-x: -28rem;
   }
 
   .lg\:-translate-x-px {
@@ -128368,6 +129340,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .lg\:translate-y-104 {
+    --tw-translate-y: 28rem;
+  }
+
   .lg\:translate-y-px {
     --tw-translate-y: 1px;
   }
@@ -128506,6 +129482,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:-translate-y-96 {
     --tw-translate-y: -24rem;
+  }
+
+  .lg\:-translate-y-104 {
+    --tw-translate-y: -28rem;
   }
 
   .lg\:-translate-y-px {
@@ -128704,6 +129684,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .lg\:hover\:translate-x-104:hover {
+    --tw-translate-x: 28rem;
+  }
+
   .lg\:hover\:translate-x-px:hover {
     --tw-translate-x: 1px;
   }
@@ -128842,6 +129826,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:hover\:-translate-x-96:hover {
     --tw-translate-x: -24rem;
+  }
+
+  .lg\:hover\:-translate-x-104:hover {
+    --tw-translate-x: -28rem;
   }
 
   .lg\:hover\:-translate-x-px:hover {
@@ -129040,6 +130028,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .lg\:hover\:translate-y-104:hover {
+    --tw-translate-y: 28rem;
+  }
+
   .lg\:hover\:translate-y-px:hover {
     --tw-translate-y: 1px;
   }
@@ -129178,6 +130170,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:hover\:-translate-y-96:hover {
     --tw-translate-y: -24rem;
+  }
+
+  .lg\:hover\:-translate-y-104:hover {
+    --tw-translate-y: -28rem;
   }
 
   .lg\:hover\:-translate-y-px:hover {
@@ -129376,6 +130372,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .lg\:focus\:translate-x-104:focus {
+    --tw-translate-x: 28rem;
+  }
+
   .lg\:focus\:translate-x-px:focus {
     --tw-translate-x: 1px;
   }
@@ -129514,6 +130514,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:focus\:-translate-x-96:focus {
     --tw-translate-x: -24rem;
+  }
+
+  .lg\:focus\:-translate-x-104:focus {
+    --tw-translate-x: -28rem;
   }
 
   .lg\:focus\:-translate-x-px:focus {
@@ -129712,6 +130716,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .lg\:focus\:translate-y-104:focus {
+    --tw-translate-y: 28rem;
+  }
+
   .lg\:focus\:translate-y-px:focus {
     --tw-translate-y: 1px;
   }
@@ -129850,6 +130858,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .lg\:focus\:-translate-y-96:focus {
     --tw-translate-y: -24rem;
+  }
+
+  .lg\:focus\:-translate-y-104:focus {
+    --tw-translate-y: -28rem;
   }
 
   .lg\:focus\:-translate-y-px:focus {
@@ -132598,6 +133610,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .xl\:space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(28rem * var(--tw-space-y-reverse));
+  }
+
+  .xl\:space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(28rem * var(--tw-space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .xl\:space-y-px > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--tw-space-y-reverse)));
@@ -133016,6 +134040,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-space-x-reverse: 0;
     margin-right: calc(-24rem * var(--tw-space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .xl\:-space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--tw-space-y-reverse));
+  }
+
+  .xl\:-space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--tw-space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .xl\:-space-y-px > :not([hidden]) ~ :not([hidden]) {
@@ -143046,6 +144082,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     height: 24rem;
   }
 
+  .xl\:h-104 {
+    height: 28rem;
+  }
+
   .xl\:h-auto {
     height: auto;
   }
@@ -143399,6 +144439,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin: 24rem;
   }
 
+  .xl\:m-104 {
+    margin: 28rem;
+  }
+
   .xl\:m-auto {
     margin: auto;
   }
@@ -143541,6 +144585,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:-m-96 {
     margin: -24rem;
+  }
+
+  .xl\:-m-104 {
+    margin: -28rem;
   }
 
   .xl\:-m-px {
@@ -143861,6 +144909,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .xl\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .xl\:my-104 {
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .xl\:mx-104 {
+    margin-left: 28rem;
+    margin-right: 28rem;
   }
 
   .xl\:my-auto {
@@ -144221,6 +145279,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .xl\:-mx-96 {
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .xl\:-my-104 {
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .xl\:-mx-104 {
+    margin-left: -28rem;
+    margin-right: -28rem;
   }
 
   .xl\:-my-px {
@@ -144751,6 +145819,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:ml-96 {
     margin-left: 24rem;
+  }
+
+  .xl\:mt-104 {
+    margin-top: 28rem;
+  }
+
+  .xl\:mr-104 {
+    margin-right: 28rem;
+  }
+
+  .xl\:mb-104 {
+    margin-bottom: 28rem;
+  }
+
+  .xl\:ml-104 {
+    margin-left: 28rem;
   }
 
   .xl\:mt-auto {
@@ -145329,6 +146413,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: -24rem;
   }
 
+  .xl\:-mt-104 {
+    margin-top: -28rem;
+  }
+
+  .xl\:-mr-104 {
+    margin-right: -28rem;
+  }
+
+  .xl\:-mb-104 {
+    margin-bottom: -28rem;
+  }
+
+  .xl\:-ml-104 {
+    margin-left: -28rem;
+  }
+
   .xl\:-mt-px {
     margin-top: -1px;
   }
@@ -145527,6 +146627,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:max-h-96 {
     max-height: 24rem;
+  }
+
+  .xl\:max-h-104 {
+    max-height: 28rem;
   }
 
   .xl\:max-h-px {
@@ -146363,6 +147467,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     padding: 24rem;
   }
 
+  .xl\:p-104 {
+    padding: 28rem;
+  }
+
   .xl\:p-px {
     padding: 1px;
   }
@@ -146681,6 +147789,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .xl\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .xl\:py-104 {
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .xl\:px-104 {
+    padding-left: 28rem;
+    padding-right: 28rem;
   }
 
   .xl\:py-px {
@@ -147211,6 +148329,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:pl-96 {
     padding-left: 24rem;
+  }
+
+  .xl\:pt-104 {
+    padding-top: 28rem;
+  }
+
+  .xl\:pr-104 {
+    padding-right: 28rem;
+  }
+
+  .xl\:pb-104 {
+    padding-bottom: 28rem;
+  }
+
+  .xl\:pl-104 {
+    padding-left: 28rem;
   }
 
   .xl\:pt-px {
@@ -150399,6 +151533,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .xl\:inset-104 {
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
   .xl\:inset-auto {
     top: auto;
     right: auto;
@@ -150649,6 +151790,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     right: -24rem;
     bottom: -24rem;
     left: -24rem;
+  }
+
+  .xl\:-inset-104 {
+    top: -28rem;
+    right: -28rem;
+    bottom: -28rem;
+    left: -28rem;
   }
 
   .xl\:-inset-px {
@@ -151084,6 +152232,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .xl\:inset-y-104 {
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .xl\:inset-x-104 {
+    right: 28rem;
+    left: 28rem;
+  }
+
   .xl\:inset-y-auto {
     top: auto;
     bottom: auto;
@@ -151442,6 +152600,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .xl\:-inset-x-96 {
     right: -24rem;
     left: -24rem;
+  }
+
+  .xl\:-inset-y-104 {
+    top: -28rem;
+    bottom: -28rem;
+  }
+
+  .xl\:-inset-x-104 {
+    right: -28rem;
+    left: -28rem;
   }
 
   .xl\:-inset-y-px {
@@ -152114,6 +153282,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .xl\:top-104 {
+    top: 28rem;
+  }
+
+  .xl\:right-104 {
+    right: 28rem;
+  }
+
+  .xl\:bottom-104 {
+    bottom: 28rem;
+  }
+
+  .xl\:left-104 {
+    left: 28rem;
+  }
+
   .xl\:top-auto {
     top: auto;
   }
@@ -152688,6 +153872,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:-left-96 {
     left: -24rem;
+  }
+
+  .xl\:-top-104 {
+    top: -28rem;
+  }
+
+  .xl\:-right-104 {
+    right: -28rem;
+  }
+
+  .xl\:-bottom-104 {
+    bottom: -28rem;
+  }
+
+  .xl\:-left-104 {
+    left: -28rem;
   }
 
   .xl\:-top-px {
@@ -158655,6 +159855,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     width: 24rem;
   }
 
+  .xl\:w-104 {
+    width: 28rem;
+  }
+
   .xl\:w-auto {
     width: auto;
   }
@@ -159015,6 +160219,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     gap: 24rem;
   }
 
+  .xl\:gap-104 {
+    gap: 28rem;
+  }
+
   .xl\:gap-px {
     gap: 1px;
   }
@@ -159185,6 +160393,11 @@ $input-btn-padding-x:         .75rem !default;  px-3
          column-gap: 24rem;
   }
 
+  .xl\:gap-x-104 {
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
   .xl\:gap-x-px {
     -moz-column-gap: 1px;
          column-gap: 1px;
@@ -159328,6 +160541,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:gap-y-96 {
     row-gap: 24rem;
+  }
+
+  .xl\:gap-y-104 {
+    row-gap: 28rem;
   }
 
   .xl\:gap-y-px {
@@ -160522,6 +161739,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .xl\:translate-x-104 {
+    --tw-translate-x: 28rem;
+  }
+
   .xl\:translate-x-px {
     --tw-translate-x: 1px;
   }
@@ -160660,6 +161881,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:-translate-x-96 {
     --tw-translate-x: -24rem;
+  }
+
+  .xl\:-translate-x-104 {
+    --tw-translate-x: -28rem;
   }
 
   .xl\:-translate-x-px {
@@ -160858,6 +162083,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .xl\:translate-y-104 {
+    --tw-translate-y: 28rem;
+  }
+
   .xl\:translate-y-px {
     --tw-translate-y: 1px;
   }
@@ -160996,6 +162225,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:-translate-y-96 {
     --tw-translate-y: -24rem;
+  }
+
+  .xl\:-translate-y-104 {
+    --tw-translate-y: -28rem;
   }
 
   .xl\:-translate-y-px {
@@ -161194,6 +162427,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .xl\:hover\:translate-x-104:hover {
+    --tw-translate-x: 28rem;
+  }
+
   .xl\:hover\:translate-x-px:hover {
     --tw-translate-x: 1px;
   }
@@ -161332,6 +162569,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:hover\:-translate-x-96:hover {
     --tw-translate-x: -24rem;
+  }
+
+  .xl\:hover\:-translate-x-104:hover {
+    --tw-translate-x: -28rem;
   }
 
   .xl\:hover\:-translate-x-px:hover {
@@ -161530,6 +162771,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .xl\:hover\:translate-y-104:hover {
+    --tw-translate-y: 28rem;
+  }
+
   .xl\:hover\:translate-y-px:hover {
     --tw-translate-y: 1px;
   }
@@ -161668,6 +162913,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:hover\:-translate-y-96:hover {
     --tw-translate-y: -24rem;
+  }
+
+  .xl\:hover\:-translate-y-104:hover {
+    --tw-translate-y: -28rem;
   }
 
   .xl\:hover\:-translate-y-px:hover {
@@ -161866,6 +163115,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .xl\:focus\:translate-x-104:focus {
+    --tw-translate-x: 28rem;
+  }
+
   .xl\:focus\:translate-x-px:focus {
     --tw-translate-x: 1px;
   }
@@ -162004,6 +163257,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:focus\:-translate-x-96:focus {
     --tw-translate-x: -24rem;
+  }
+
+  .xl\:focus\:-translate-x-104:focus {
+    --tw-translate-x: -28rem;
   }
 
   .xl\:focus\:-translate-x-px:focus {
@@ -162202,6 +163459,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .xl\:focus\:translate-y-104:focus {
+    --tw-translate-y: 28rem;
+  }
+
   .xl\:focus\:translate-y-px:focus {
     --tw-translate-y: 1px;
   }
@@ -162340,6 +163601,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .xl\:focus\:-translate-y-96:focus {
     --tw-translate-y: -24rem;
+  }
+
+  .xl\:focus\:-translate-y-104:focus {
+    --tw-translate-y: -28rem;
   }
 
   .xl\:focus\:-translate-y-px:focus {
@@ -165088,6 +166353,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: calc(24rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .\32xl\:space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(28rem * var(--tw-space-y-reverse));
+  }
+
+  .\32xl\:space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(28rem * var(--tw-space-x-reverse));
+    margin-left: calc(28rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .\32xl\:space-y-px > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(1px * calc(1 - var(--tw-space-y-reverse)));
@@ -165506,6 +166783,18 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-space-x-reverse: 0;
     margin-right: calc(-24rem * var(--tw-space-x-reverse));
     margin-left: calc(-24rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .\32xl\:-space-y-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(-28rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(-28rem * var(--tw-space-y-reverse));
+  }
+
+  .\32xl\:-space-x-104 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(-28rem * var(--tw-space-x-reverse));
+    margin-left: calc(-28rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .\32xl\:-space-y-px > :not([hidden]) ~ :not([hidden]) {
@@ -175536,6 +176825,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     height: 24rem;
   }
 
+  .\32xl\:h-104 {
+    height: 28rem;
+  }
+
   .\32xl\:h-auto {
     height: auto;
   }
@@ -175889,6 +177182,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin: 24rem;
   }
 
+  .\32xl\:m-104 {
+    margin: 28rem;
+  }
+
   .\32xl\:m-auto {
     margin: auto;
   }
@@ -176031,6 +177328,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:-m-96 {
     margin: -24rem;
+  }
+
+  .\32xl\:-m-104 {
+    margin: -28rem;
   }
 
   .\32xl\:-m-px {
@@ -176351,6 +177652,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .\32xl\:mx-96 {
     margin-left: 24rem;
     margin-right: 24rem;
+  }
+
+  .\32xl\:my-104 {
+    margin-top: 28rem;
+    margin-bottom: 28rem;
+  }
+
+  .\32xl\:mx-104 {
+    margin-left: 28rem;
+    margin-right: 28rem;
   }
 
   .\32xl\:my-auto {
@@ -176711,6 +178022,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .\32xl\:-mx-96 {
     margin-left: -24rem;
     margin-right: -24rem;
+  }
+
+  .\32xl\:-my-104 {
+    margin-top: -28rem;
+    margin-bottom: -28rem;
+  }
+
+  .\32xl\:-mx-104 {
+    margin-left: -28rem;
+    margin-right: -28rem;
   }
 
   .\32xl\:-my-px {
@@ -177241,6 +178562,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:ml-96 {
     margin-left: 24rem;
+  }
+
+  .\32xl\:mt-104 {
+    margin-top: 28rem;
+  }
+
+  .\32xl\:mr-104 {
+    margin-right: 28rem;
+  }
+
+  .\32xl\:mb-104 {
+    margin-bottom: 28rem;
+  }
+
+  .\32xl\:ml-104 {
+    margin-left: 28rem;
   }
 
   .\32xl\:mt-auto {
@@ -177819,6 +179156,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     margin-left: -24rem;
   }
 
+  .\32xl\:-mt-104 {
+    margin-top: -28rem;
+  }
+
+  .\32xl\:-mr-104 {
+    margin-right: -28rem;
+  }
+
+  .\32xl\:-mb-104 {
+    margin-bottom: -28rem;
+  }
+
+  .\32xl\:-ml-104 {
+    margin-left: -28rem;
+  }
+
   .\32xl\:-mt-px {
     margin-top: -1px;
   }
@@ -178017,6 +179370,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:max-h-96 {
     max-height: 24rem;
+  }
+
+  .\32xl\:max-h-104 {
+    max-height: 28rem;
   }
 
   .\32xl\:max-h-px {
@@ -178853,6 +180210,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     padding: 24rem;
   }
 
+  .\32xl\:p-104 {
+    padding: 28rem;
+  }
+
   .\32xl\:p-px {
     padding: 1px;
   }
@@ -179171,6 +180532,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .\32xl\:px-96 {
     padding-left: 24rem;
     padding-right: 24rem;
+  }
+
+  .\32xl\:py-104 {
+    padding-top: 28rem;
+    padding-bottom: 28rem;
+  }
+
+  .\32xl\:px-104 {
+    padding-left: 28rem;
+    padding-right: 28rem;
   }
 
   .\32xl\:py-px {
@@ -179701,6 +181072,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:pl-96 {
     padding-left: 24rem;
+  }
+
+  .\32xl\:pt-104 {
+    padding-top: 28rem;
+  }
+
+  .\32xl\:pr-104 {
+    padding-right: 28rem;
+  }
+
+  .\32xl\:pb-104 {
+    padding-bottom: 28rem;
+  }
+
+  .\32xl\:pl-104 {
+    padding-left: 28rem;
   }
 
   .\32xl\:pt-px {
@@ -182889,6 +184276,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .\32xl\:inset-104 {
+    top: 28rem;
+    right: 28rem;
+    bottom: 28rem;
+    left: 28rem;
+  }
+
   .\32xl\:inset-auto {
     top: auto;
     right: auto;
@@ -183139,6 +184533,13 @@ $input-btn-padding-x:         .75rem !default;  px-3
     right: -24rem;
     bottom: -24rem;
     left: -24rem;
+  }
+
+  .\32xl\:-inset-104 {
+    top: -28rem;
+    right: -28rem;
+    bottom: -28rem;
+    left: -28rem;
   }
 
   .\32xl\:-inset-px {
@@ -183574,6 +184975,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .\32xl\:inset-y-104 {
+    top: 28rem;
+    bottom: 28rem;
+  }
+
+  .\32xl\:inset-x-104 {
+    right: 28rem;
+    left: 28rem;
+  }
+
   .\32xl\:inset-y-auto {
     top: auto;
     bottom: auto;
@@ -183932,6 +185343,16 @@ $input-btn-padding-x:         .75rem !default;  px-3
   .\32xl\:-inset-x-96 {
     right: -24rem;
     left: -24rem;
+  }
+
+  .\32xl\:-inset-y-104 {
+    top: -28rem;
+    bottom: -28rem;
+  }
+
+  .\32xl\:-inset-x-104 {
+    right: -28rem;
+    left: -28rem;
   }
 
   .\32xl\:-inset-y-px {
@@ -184604,6 +186025,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
     left: 24rem;
   }
 
+  .\32xl\:top-104 {
+    top: 28rem;
+  }
+
+  .\32xl\:right-104 {
+    right: 28rem;
+  }
+
+  .\32xl\:bottom-104 {
+    bottom: 28rem;
+  }
+
+  .\32xl\:left-104 {
+    left: 28rem;
+  }
+
   .\32xl\:top-auto {
     top: auto;
   }
@@ -185178,6 +186615,22 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:-left-96 {
     left: -24rem;
+  }
+
+  .\32xl\:-top-104 {
+    top: -28rem;
+  }
+
+  .\32xl\:-right-104 {
+    right: -28rem;
+  }
+
+  .\32xl\:-bottom-104 {
+    bottom: -28rem;
+  }
+
+  .\32xl\:-left-104 {
+    left: -28rem;
   }
 
   .\32xl\:-top-px {
@@ -191145,6 +192598,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     width: 24rem;
   }
 
+  .\32xl\:w-104 {
+    width: 28rem;
+  }
+
   .\32xl\:w-auto {
     width: auto;
   }
@@ -191505,6 +192962,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     gap: 24rem;
   }
 
+  .\32xl\:gap-104 {
+    gap: 28rem;
+  }
+
   .\32xl\:gap-px {
     gap: 1px;
   }
@@ -191675,6 +193136,11 @@ $input-btn-padding-x:         .75rem !default;  px-3
          column-gap: 24rem;
   }
 
+  .\32xl\:gap-x-104 {
+    -moz-column-gap: 28rem;
+         column-gap: 28rem;
+  }
+
   .\32xl\:gap-x-px {
     -moz-column-gap: 1px;
          column-gap: 1px;
@@ -191818,6 +193284,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:gap-y-96 {
     row-gap: 24rem;
+  }
+
+  .\32xl\:gap-y-104 {
+    row-gap: 28rem;
   }
 
   .\32xl\:gap-y-px {
@@ -193012,6 +194482,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .\32xl\:translate-x-104 {
+    --tw-translate-x: 28rem;
+  }
+
   .\32xl\:translate-x-px {
     --tw-translate-x: 1px;
   }
@@ -193150,6 +194624,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:-translate-x-96 {
     --tw-translate-x: -24rem;
+  }
+
+  .\32xl\:-translate-x-104 {
+    --tw-translate-x: -28rem;
   }
 
   .\32xl\:-translate-x-px {
@@ -193348,6 +194826,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .\32xl\:translate-y-104 {
+    --tw-translate-y: 28rem;
+  }
+
   .\32xl\:translate-y-px {
     --tw-translate-y: 1px;
   }
@@ -193486,6 +194968,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:-translate-y-96 {
     --tw-translate-y: -24rem;
+  }
+
+  .\32xl\:-translate-y-104 {
+    --tw-translate-y: -28rem;
   }
 
   .\32xl\:-translate-y-px {
@@ -193684,6 +195170,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .\32xl\:hover\:translate-x-104:hover {
+    --tw-translate-x: 28rem;
+  }
+
   .\32xl\:hover\:translate-x-px:hover {
     --tw-translate-x: 1px;
   }
@@ -193822,6 +195312,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:hover\:-translate-x-96:hover {
     --tw-translate-x: -24rem;
+  }
+
+  .\32xl\:hover\:-translate-x-104:hover {
+    --tw-translate-x: -28rem;
   }
 
   .\32xl\:hover\:-translate-x-px:hover {
@@ -194020,6 +195514,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .\32xl\:hover\:translate-y-104:hover {
+    --tw-translate-y: 28rem;
+  }
+
   .\32xl\:hover\:translate-y-px:hover {
     --tw-translate-y: 1px;
   }
@@ -194158,6 +195656,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:hover\:-translate-y-96:hover {
     --tw-translate-y: -24rem;
+  }
+
+  .\32xl\:hover\:-translate-y-104:hover {
+    --tw-translate-y: -28rem;
   }
 
   .\32xl\:hover\:-translate-y-px:hover {
@@ -194356,6 +195858,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-x: 24rem;
   }
 
+  .\32xl\:focus\:translate-x-104:focus {
+    --tw-translate-x: 28rem;
+  }
+
   .\32xl\:focus\:translate-x-px:focus {
     --tw-translate-x: 1px;
   }
@@ -194494,6 +196000,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:focus\:-translate-x-96:focus {
     --tw-translate-x: -24rem;
+  }
+
+  .\32xl\:focus\:-translate-x-104:focus {
+    --tw-translate-x: -28rem;
   }
 
   .\32xl\:focus\:-translate-x-px:focus {
@@ -194692,6 +196202,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
     --tw-translate-y: 24rem;
   }
 
+  .\32xl\:focus\:translate-y-104:focus {
+    --tw-translate-y: 28rem;
+  }
+
   .\32xl\:focus\:translate-y-px:focus {
     --tw-translate-y: 1px;
   }
@@ -194830,6 +196344,10 @@ $input-btn-padding-x:         .75rem !default;  px-3
 
   .\32xl\:focus\:-translate-y-96:focus {
     --tw-translate-y: -24rem;
+  }
+
+  .\32xl\:focus\:-translate-y-104:focus {
+    --tw-translate-y: -28rem;
   }
 
   .\32xl\:focus\:-translate-y-px:focus {
