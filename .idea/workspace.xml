@@ -23,54 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="437c1bed-f3ac-451b-b3ee-103a8f4752ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SurveyAttemptController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SurveyController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/SurveyAttempt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_05_31_002515_create_survey_attempts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/survey/edit-form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/survey-attempt/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/survey-attempt/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/survey/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/survey/index1.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Logic/Bank/QuestionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Logic/Facades/QuestionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/Logic/Facades/SurveyTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Logic/Facades/Competencies.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Logic/Facades/Competencies.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Logic/Facades/QuestionBank.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Logic/Facades/QuestionBank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Competency.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Competency.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/QuestionBank.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/QuestionBank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Survey.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Survey.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/input/area.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/input/area.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/survey/create-form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/survey/create-form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/survey/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/survey/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/survey/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/survey/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ApiTokenPermissionsTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/AuthenticationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/BrowserSessionsTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/CreateApiTokenTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/DeleteAccountTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/DeleteApiTokenTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/EmailVerificationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/PasswordConfirmationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/PasswordResetTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ProfileInformationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/RegistrationTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/TwoFactorAuthenticationSettingsTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/UpdatePasswordTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +233,7 @@
       <workItem from="1621431053783" duration="959000" />
       <workItem from="1621514418911" duration="1211000" />
       <workItem from="1621703783525" duration="14134000" />
-      <workItem from="1622414183693" duration="8801000" />
+      <workItem from="1622414183693" duration="10606000" />
     </task>
     <servers />
   </component>
@@ -302,11 +256,11 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1622415558358">
+    <state x="500" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1622531989198">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="500" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834/3840.680.1024.738@0.0.1536.834" timestamp="1620669138572" />
-    <state x="500" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1622415558358" />
+    <state x="500" y="172" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1622531989198" />
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1621756217915">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
