@@ -1,17 +1,18 @@
-@props(['csrf' => 'false', 'action' => '#', 'args' => [], 'method' => 'POST'])
+@props(['action' => '#', 'args' => [], 'method' => 'POST'])
 
 @php
-     if( \Illuminate\Support\Facades\Route::has($action) )
+    if( \Illuminate\Support\Facades\Route::has($action) ){
         $action = route($action, $args);
-
+    }
 @endphp
 
 <form
     @if($action != '#' && !is_null($action)) action="{{ $action }}" @endif
-    method="{{ $method }}"
+    method="{{ $method != 'POST' ? 'POST' : $method }}"
     {{ $attributes->merge(["class" => "form"]) }}
 >
-    @if($csrf) @csrf @endif
+    @method($method)
+    @csrf
 
     {{ $slot }}
 </form>

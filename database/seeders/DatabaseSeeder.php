@@ -38,12 +38,12 @@ class DatabaseSeeder extends Seeder
         {
             $competency = Competency::whereLabel($question['competency'])->first();
 
-            /*$question_bank_item = QuestionBank::create(
+            $question_bank_item = QuestionBank::create(
                 collect($question)
                     ->except( ['competency'] )
                     ->merge(['competency_id' => $competency->id])
                     ->toArray()
-            );*/
+            );
         }
 
         /**
@@ -132,6 +132,7 @@ class DatabaseSeeder extends Seeder
         foreach ($question_data as $question_d)
         {
             $bank_item = \App\Logic\Facades\QuestionBank::find($question_d["bank_item"]);
+
             $competency = $bank_item->competency;
 
             unset($question_d["bank_item"]);

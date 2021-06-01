@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static where(string $key, mixed $value)
  * @method static find(int $id)
  * @method static create(array $array)
+ * @method static whereText(string $string)
  */
 class QuestionBank extends Model
 {

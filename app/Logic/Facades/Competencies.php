@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Facade;
 /**
  * @method static update($competency, string $string)
  * @method static find(int $int)
+ * @method static create(string $string)
  */
 class Competencies extends Facade
 {

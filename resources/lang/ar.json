@@ -58,10 +58,20 @@
 
     "Cancel": "تراجع",
     "Save": "حفظ",
+    "Edit": "تعديل",
+    "Delete": "حذف",
 
-    "Survey.Title": "عنوان الاستبيان",
-    "Survey.Description": "الوصف",
+    "Showing": "معاينة",
+    "to": "إلى",
+    "of": "من",
+    "results": "نتائج",
 
-    "survey.all-surveys": "جميع الاستبيانات"
+    "survey.title": "عنوان الاستبيان",
+    "survey.description": "الوصف",
+
+    "survey.all-surveys": "جميع الاستبيانات",
+
+    "survey.create-new-survey": "إنشاء استبيان جديد",
+    "survey.edit-survey": "تعديل الإستبيان"
 
 }

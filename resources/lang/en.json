@@ -47,7 +47,14 @@
 
     "Cancel": "Cancel",
     "Save": "Save",
+    "Edit": "Edit",
+    "Delete": "Delete",
 
-    "Survey.Title": "Title",
-    "Survey.Description": "Description"
+    "survey.title": "Title",
+    "survey.description": "Description",
+
+    "survey.all-surveys": "All surveys",
+
+    "survey.create-new-survey": "Create new survey",
+    "survey.edit-survey": "Edit survey"
 }

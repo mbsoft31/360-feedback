@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\DB;
 
 /**
  * @method static whereTitle(string $string)
+ * @method static create(array $inputs)
  */
 class Survey extends Model
 {

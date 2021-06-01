@@ -2,18 +2,18 @@
 
     <x-slot name="header">
         <h1 class="flex-grow text-gray-900 text-2xl tracking-wide font-semibold ">
-            {{ __('survey.create-new-survey') }}
+            {{ __('survey.edit-survey') }}
         </h1>
     </x-slot>
 
     <div class="mt-10 max-w-5xl mx-auto bg-white rounded-lg shadow overflow-hidden">
         <div class="px-6 py-4 flex justify-end items-center space-x-3 border-b">
             <h1 class="flex-grow text-gray-900 text-2xl tracking-wide font-semibold ">
-                {{ __('survey.create-new-survey') }}
+                {{ __('survey.edit-survey') }}
             </h1>
         </div>
         <div class="modal-body">
-            <x-survey.create-form />
+            <x-survey.edit-form :survey="$survey" />
         </div>
 
         <div class="px-6 py-4 flex justify-end items-center space-x-3 border-t">

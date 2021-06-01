@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static create($competency)
+ * @method static whereLabel($competency)
+ * @method static find(int $int)
  */
 class Competency extends Model
 {
